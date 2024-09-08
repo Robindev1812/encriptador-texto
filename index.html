@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- etiquetas meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- titulo -->
+  <title>Encriptador || Alura Latam</title>
+  <!-- icono -->
+  <link rel="shortcut icon" href="./Assets/Logo.png" type="image/x-icon" />
+  <!-- hojas de estilos -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- <link rel="stylesheet" href="css/reset.css"> -->
+</head>
+
+<body>
+  <!-- encabezado -->
+  <header class="header">
+    <div class="header__logo">
+      <img src="./Assets/Logo.png" alt="Logo Alura Latam" />
+    </div>
+  </header>
+  <!-- contenido principal -->
+  <main>
+    <section class="encriptador">
+      <textarea class="encriptar" placeholder="Ingrese el texto aqui"></textarea>
+      <div class="encriptador__aviso">
+        <img class="img_aviso" src="./Assets/Vector.png" alt="Signo de Exclamacion" />
+        <p class="texto__aviso">Solo letras minúsculas y sin acentos</p>
+      </div>
+      <div class="encriptador__contenedor">
+        <button type="submit" class="btn__encriptar">Encriptar</button>
+        <button type="submit" class="btn__desencriptar">Desencriptar</button>
+      </div>
+    </section>
+    <!-- tarjeta de la derecha -->
+    <section class="tarjeta">
+      <div class="tarjeta__contenedor">
+        <img class="img__muñeco" src="Assets/Muñeco.png" alt="Imagen de muñeco azul">
+        <p class="texto__uno">Ningún mensaje fue encontrado</p>
+          <p class="texto__dos">Ingresa el texto que desees encriptar o desencriptar.</p>
+      </div>
+      <textarea type="mensaje" class="evaluar" readonly ></textarea>
+      <button type="submit" class="btn__copiar">Copiar</button>
+    </section>
+  </main>
+  <!-- pie de pagina -->
+    <footer class="footer">
+      <p class="copyright">&copy; copyright 2024-Encriptador de Texto- Desarrollado por Cristian Camilo Dosman. Todos los derechos reservados.</p>
+      <a href="https://www.linkedin.com/in/cristian-camilo-dosman-jimenez-b0848b22b/">
+        <img class="linkedin" src="./Assets/linkedin.svg" alt="Logo linkedin"/>
+      </a>
+      <a href="https://github.com/TaibseGamer">
+        <img class="github" src="./Assets/github.svg" alt="Logo github"/>
+      </a>
+    </footer>
+    <script src="./js/encriptador.js"></script>
+</body>
+
+</html>
